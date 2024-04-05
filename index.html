@@ -18,12 +18,34 @@
             <!-- place navbar here -->
         </header>
         <main id="d-flex flex-column">
+            <div id="p2">
+                <img src="images/pizza.avif" alt="Pizza Image">
+                <div class="centered">
+                    <h1>Cheech's Pizza</h1>
+                </div>
+            </div>
+
             <form action="thankyou.html">
                 <div id="p2">
                     <label for="fName">First Name: </label>
                     <input type="text" name="fname" id="fName">
                     <label for="lName">Last Name: </label>
                     <input type="text" name="lname" id="lName">
+                </div>
+                <div id="p2">
+                    <label for="phoneNum">Phone Number:</label>
+                    <input type="text" name="phoneNum" id="phoneNum">
+                    <hr>
+                </div>
+                <div id="p2">
+                    <label for="pizzas">Select Pizza Type:</label>
+                    <select name="pizzas" id="pizzas">
+                        <!--options from the array will appear here-->
+                    </select>
+                    <label for="pizzaAmount">Select Number Of Pizzas: </label>
+                    <select name="pizzaAmount" id="pizzaAmount">
+                        <!--Length of array is number out here-->
+                    </select>
                 </div>
 
             </form>
